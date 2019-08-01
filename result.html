@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>提交任务结果</title>
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <span class="header__left">
+        <i class="iconfont icon-back"></i>
+      </span>
+      <div class="header__center">
+        <h2>提交任务结果</h2>
+      </div>
+      <span class="header__right">
+        <i class="iconfont icon-gengduo"></i>
+      </span>
+    </header>
+
+    <div class="content pb50">
+      <div class="address-tile">
+        <div class="address-tile__bd">
+          <span>小明</span>
+          <span>156****3255</span>
+          <p class="color-primary">该活动默认使用付款信息的地址（无需添加）</p>
+        </div>
+        <div class="address-tile__ft">
+          <i class="iconfont icon-forward"></i>
+        </div>
+      </div>
+
+      <div class="input-card">
+        <div class="input-card__hd">
+          <p class="input-card__title">
+            <span class="iconfont icon-gift color-primary"></span>【礼品推广】活动正在进行中，请完成提交以下信息
+          </p>
+        </div>
+        <div class="e-input">
+          <span class="e-input__label">购买旺旺账号</span>
+          <input type="text" placeholder="请输入您的旺旺账号" />
+        </div>
+        <div class="e-input">
+          <span class="e-input__label">购买的订单号</span>
+          <input type="text" placeholder="请输入您购买的订单号" />
+        </div>
+        <!-- 上传 start -->
+        <div class="e-upload">
+          <div class="e-upload__hd">
+            <span class="e-upload__title">搜索页面截图</span>
+            <span class="e-upload__desc">如需商家要求请上传</span>
+          </div>
+
+          <div class="e-upload__bd">
+            <div class="e-upload__cell">
+              <img src="https://via.placeholder.com/400x300/43ad7f7f/fff?text=ImageHolder" alt="" />
+            </div>
+            <div class="e-upload__cell">
+              <img src="https://via.placeholder.com/400x300/43ad7f7f/fff?text=ImageHolder" alt="" />
+            </div>
+            <div class="e-upload__cell">
+              <img src="https://via.placeholder.com/400x300/43ad7f7f/fff?text=ImageHolder" alt="" />
+            </div>
+            <div class="e-upload__cell">
+              <div class="e-upload__btn-cell">
+                <button class="e-btn is--plain is--primary is--mini">
+                  上传<label><input type="file"/></label>
+                </button>
+                <button class="e-btn is--plain is--mini">删除</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 上传 end -->
+        <div class="input-card__cell">
+          <p><span class="bold">礼品配送时间：</span>2个工作日内发出，运输时间咨询配送公司</p>
+          <p><span class="bold">金币奖励时间：</span>2个工作小时内到账，详情请点击右边或咨询客服</p>
+          <p><span class="bold">本金到账时间：</span>2个工作小时内到账，详情请点击右边或咨询客服</p>
+        </div>
+
+        <div class="e-input no-border">
+          <span class="e-input__label">店铺名字</span>
+          <input type="text" placeholder="商家需要您验证店铺名字方能提交任务" />
+        </div>
+      </div>
+
+      <div class="input-card">
+        <div class="e-input is--right is--select">
+          <span class="e-input__label">我的收款信息</span>
+          <label>请提交微信收款二维码<input type="file"/></label>
+          <i class="iconfont icon-forward"></i>
+        </div>
+        <div class="e-input is--right is--select">
+          <span class="e-input__label">我的备注留言</span>
+          <input type="text" placeholder="请输入您的留言信息" />
+          <i class="iconfont icon-forward"></i>
+        </div>
+
+        <div class="e-input is--right is--select">
+          <span class="e-input__label">活动信息</span>
+          <p>已垫付：20元，将返18元，获得20金币或礼品</p>
+          <i class="iconfont icon-forward"></i>
+        </div>
+
+        <div class="e-input is--right is--select">
+          <span class="e-input__label">金币<i class="iconfont icon-wenhao"></i></span>
+          <p>共20金币</p>
+        </div>
+      </div>
+    </div>
+    <!-- content end -->
+    <div class="submit-footer">
+      <div class="submit-footer__icon-btn">
+        <i class="iconfont icon-kefu2"></i>
+        <span>联系客服</span>
+      </div>
+      <div class="submit-footer__desc">
+        <p>本次获得5998金币</p>
+        <p>本次获得礼品</p>
+      </div>
+      <button class="submit-footer__btn">提交订单</button>
+    </div>
+  </body>
+</html>

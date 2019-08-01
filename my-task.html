@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>我的任务</title>
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <span class="header__left">
+        <i class="iconfont icon-back"></i>
+      </span>
+      <div class="header__center">
+        <h2>我的任务</h2>
+      </div>
+      <span class="header__right">
+        <i class="iconfont icon-gengduo"></i>
+      </span>
+    </header>
+    <div class="content">
+      <div id="taskSlider" class="mui-slider mui-fullscreen">
+        <div
+          id="sliderSegmentedControl"
+          class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted"
+        >
+          <div class="mui-scroll">
+            <a class="mui-control-item mui-active" href="#item1mobile">
+              全部
+            </a>
+            <a class="mui-control-item" href="#item2mobile">
+              进行中
+            </a>
+            <a class="mui-control-item" href="#item3mobile">
+              已完结
+            </a>
+            <a class="mui-control-item" href="#item4mobile">
+              驳回中
+            </a>
+          </div>
+        </div>
+        <div class="mui-slider-group">
+          <div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+            <div id="scroll1" class="mui-scroll-wrapper">
+              <div class="mui-scroll">
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--running"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--done"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--turn"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--running"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--done"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--turn"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="item2mobile" class="mui-slider-item mui-control-content">
+            <div class="mui-scroll-wrapper">
+              <div class="mui-scroll">
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--running"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--done"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--turn"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="item3mobile" class="mui-slider-item mui-control-content">
+            <div class="mui-scroll-wrapper">
+              <div class="mui-scroll">
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--running"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--done"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--turn"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="item4mobile" class="mui-slider-item mui-control-content">
+            <div class="mui-scroll-wrapper">
+              <div class="mui-scroll">
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--running"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--done"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-card">
+                  <div class="task-card__hd">
+                    <div class="task-card__hd-left">
+                      <i class="iconfont icon-shop"></i>
+                      <span>妖精口袋的旗舰店</span>
+                      <i class="iconfont icon-forward"></i>
+                    </div>
+                    <div class="task-card__hd-right">
+                      <i class="iconfont icon-delete"></i>
+                    </div>
+                  </div>
+                  <div class="task-card__bd">
+                    <div class="task-card__bd-left">
+                      <img src="./assets/mock-product01.jpg" alt="" />
+                    </div>
+                    <div class="task-card__bd-right">
+                      <p>SCOFIELD2017新款纯色气质方领淑女中多少的 连衣裙修身...</p>
+                      <span>294</span>
+                    </div>
+                    <div class="task-card__bd-stamp is--turn"></div>
+                  </div>
+                  <div class="task-card__ft">
+                    <p class="task-card__ft-left">奖励：20金币；纸巾四包</p>
+                    <div class="task-card__ft-right">
+                      <button class="e-btn is--plain is--round is--mini">放弃</button>
+                      <button class="e-btn is--plain is--round is--mini">上报结果</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="task-footer">
+      <div class="task-footer__cell">
+        <i class="iconfont icon-kefu2"></i>
+        <p>联系客服</p>
+      </div>
+      <div class="task-footer__cell">
+        <i class="iconfont icon-ren"></i>
+        <p>个人中心</p>
+      </div>
+    </div>
+    <script src="./js/mui.min.js"></script>
+    <script>
+      mui('.mui-scroll-wrapper').scroll({
+        indicators: true, //是否显示滚动条
+      })
+    </script>
+  </body>
+</html>
