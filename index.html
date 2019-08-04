@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>首页</title>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img src="./images/logo.png" alt="" />
+      </div>
+      <ul class="header__menu">
+        <li class="header__menu-item is--active"><a href="javascript:;">首页</a></li>
+        <li class="header__menu-item"><a href="javascript:;">活动推广</a></li>
+        <li class="header__menu-item"><a href="javascript:;">粉丝达摩盘</a></li>
+        <li class="header__menu-item"><a href="javascript:;">财务系统</a></li>
+        <li class="header__menu-item"><a href="javascript:;">魔盒验号</a></li>
+        <li class="header__menu-item"><a href="javascript:;">推广中心</a></li>
+      </ul>
+      <div class="header__right">
+        <span class="header__control">
+          <i class="icon ic-notice"></i>
+          <i class="icon ic-shutdown"></i>
+        </span>
+        <a class="header__profile" href="javascript:;">
+          <i class="icon ic-person"></i>
+          <span>您好，粉丝罗盘</span>
+          <i class="icon ic-arrow-down"></i>
+        </a>
+      </div>
+    </header>
+    <div class="ad ad--main ma-10">
+      <a href="javascript:;">
+        <img src="./images/mock/ad-main.png" alt="" />
+      </a>
+    </div>
+    <div class="main">
+      <div class="main__left">
+        <!-- 总览数据 start -->
+        <div class="card">
+          <div class="card__hd">
+            <span class="card__hd-title pt-20">总览数据</span>
+          </div>
+          <div class="card__bd">
+            <table class="e-table">
+              <thead class="h5" align="center">
+                <tr>
+                  <th>粉丝数</th>
+                  <th>认证粉丝数</th>
+                  <th>活动任务数</th>
+                  <th>公众号数量</th>
+                  <th>商品数量</th>
+                  <th>订单数量</th>
+                  <th>审核中</th>
+                  <th>审核完成</th>
+                  <th>驳回审核</th>
+                  <th>费用</th>
+                  <th>好评返现数量</th>
+                </tr>
+              </thead>
+              <tbody align="center">
+                <tr>
+                  <td class="color-orange bold">20</td>
+                  <td class="color-orange bold">20</td>
+                  <td class="color-orange bold">20</td>
+                  <td class="color-orange bold">20</td>
+                  <td class="color-orange bold">20</td>
+                  <td class="color-orange bold">20</td>
+                  <td class="color-orange bold">20</td>
+                  <td class="color-orange bold">20</td>
+                  <td class="color-orange bold">20</td>
+                  <td class="color-orange bold">20</td>
+                  <td class="color-orange bold">20</td>
+                </tr>
+                <tr>
+                  <td class="color-blue bold">20</td>
+                  <td class="color-blue bold">20</td>
+                  <td class="color-blue bold">20</td>
+                  <td class="color-blue bold">20</td>
+                  <td class="color-blue bold">20</td>
+                  <td class="color-blue bold">20</td>
+                  <td class="color-blue bold">20</td>
+                  <td class="color-blue bold">20</td>
+                  <td class="color-blue bold">20</td>
+                  <td class="color-blue bold">20</td>
+                  <td class="color-blue bold">20</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="ph-10 pt-15 pb-10">
+              今日：<span class="color-orange pr-15">橙色</span>总数：<span class="color-blue">蓝色</span>
+            </div>
+          </div>
+        </div>
+        <!-- 总览数据 end -->
+        <div class="row mv-10">
+          <div class="col-8">
+            <div class="card">
+              <div class="card__hd">
+                <span class="card__hd-title">活动任务列表</span>
+                <span class="card__hd-tail">
+                  <button class="e-btn is--small is--primary">+新建推广计划</button>
+                  <span class="ml-10"><button class="e-btn is--small">进入计划列表</button></span>
+                </span>
+              </div>
+              <div class="card__bd" style="height:22rem;">
+                <table class="e-table is--colored-head is--mini is--border">
+                  <thead class="h5" align="center">
+                    <tr>
+                      <th class="caption" align="left">状态</th>
+                      <th class="caption" align="left">推广计划名称</th>
+                      <th>扣费(元)</th>
+                      <th>推送人数</th>
+                      <th>领取审核</th>
+                      <th>结果审核</th>
+                    </tr>
+                  </thead>
+                  <tbody align="center">
+                    <tr>
+                      <td class="color-blue bold" align="left">进行中</td>
+                      <td align="left">XXX推广计划</td>
+                      <td>50</td>
+                      <td>128</td>
+                      <td>-</td>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <td class="bold" align="left">结果审核</td>
+                      <td align="left">XXX推广计划</td>
+                      <td>50</td>
+                      <td>128</td>
+                      <td>-</td>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <td class="bold" align="left">结束</td>
+                      <td align="left">XXX推广计划</td>
+                      <td>50</td>
+                      <td>128</td>
+                      <td>-</td>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 pl-10">
+            <div class="card">
+              <div class="card__hd">
+                <span class="card__hd-title">商家成长</span>
+              </div>
+              <div class="card__bd" style="height:22rem;">
+                <ul class="list is--col-2 h6">
+                  <li class="list-tile">
+                    <span class="list-tile__hd caption">【活动场景】</span>
+                    <div class="list-tile__bd h6">
+                      <a href="javascript:;"
+                        >活动期间，当前账户下有<span class="color-blue">2</span>款未在直通车推广的宝贝
+                        建议在活动场景进行推广，加大这些单元的推广可以在活动爆发期带来更多<span class="color-blue"
+                          >成交和流量</span
+                        >
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__right">
+        <!-- 金币余额 start -->
+        <div class="card">
+          <div class="card__hd">
+            <span class="card__hd-title">金币余额</span>
+          </div>
+          <div class="card__bd">
+            <h5 class="mv-30 text-center bold">1024金币</h5>
+            <div class="mb-20 text-center">
+              <button class="e-btn is--small is--primary">立即充值</button
+              ><button class="e-btn is--small ml-20">账户明细</button>
+            </div>
+          </div>
+        </div>
+        <!-- 金币余额 end -->
+        <!-- 常见问题 start -->
+        <div class="card mt-10">
+          <div class="card__hd">
+            <span class="card__hd-title">常见问题</span>
+          </div>
+          <div class="card__bd" style="height:14rem;">
+            <ul class="list h5">
+              <li class="pt-10">
+                <a href="javascript:;">粉丝注册认证说明</a>
+              </li>
+              <li class="pt-10">
+                <a href="javascript:;">活动教程</a>
+              </li>
+              <li class="pt-10">
+                <a href="javascript:;">活动的注意事项</a>
+              </li>
+              <li class="pt-10">
+                <a href="javascript:;">金币提现</a>
+              </li>
+              <li class="pt-10">
+                <a href="javascript:;">常见问题答疑</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- 常见问题 end -->
+        <div class="ad mt-10">
+          <a href="javascript:;">
+            <img src="./images/mock/ad-side.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
